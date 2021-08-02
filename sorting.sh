@@ -7,3 +7,4 @@ read -p "Enter number3 :" number3
 ar1=$(( $number1+($number2*$number3) ))
 ar2=$(( ($number1*$number2)+$number3 ))
 ar3=$(( $number3+($number1/$number2) ))
+ar4=$(( ($number1%$number2)+$number3 ))
